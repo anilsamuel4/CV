@@ -1,0 +1,38 @@
+/*====================================Tag selector=====================*/
+body {
+  background-color: lightcyan;
+}
+img:hover{
+  width:100px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 2px;
+  height: 0px;
+  width: 5%;
+}
+
+h1 {
+  color: #5e6f64;
+}
+
+h1:hover {
+  background-color: gold;color: black;font-size: 220%;
+  }
+
+h3 {
+  color: #5e6f64;
+}
+h3:hover {
+  background-color: gold;color:black;
+  }
+/*====================================Class selector=====================*/
+.whitebackground {
+  background-color: white;
+}
+/*====================================ID selector=====================*/
+#fonttype {
+  font-family: cursive;
+}
