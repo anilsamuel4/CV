@@ -2,25 +2,18 @@
 body {
   background-color: lightcyan;
 }
-img:hover{
-  width:100px;
-}
 
 hr {
   border-style: dotted none none;
   border-color: grey;
   border-width: 2px;
-  height: 0px;
+  height: 0;
   width: 5%;
 }
 
 h1 {
-  color: #5e6f64;
+  color: white;
 }
-
-h1:hover {
-  background-color: gold;color: black;font-size: 220%;
-  }
 
 h3 {
   color: #5e6f64;
@@ -28,10 +21,40 @@ h3 {
 h3:hover {
   background-color: gold;color:black;
   }
+
 /*====================================Class selector=====================*/
 .whitebackground {
   background-color: white;
 }
+.header{
+  background-color: #251f44;
+  position:fixed;
+  display:block;
+  left:0;
+  right:0;
+  top:0;
+  opacity: 1;
+  height: 120px;
+
+}
+.contact
+{
+  color: white;
+  position:relative;
+  left:1250px;
+  top:-100px;
+  font: 12px;
+}
+.mail
+{
+  color: white;
+  position:relative;
+  left:1140px;
+  top:-100px;
+
+}
+
+
 /*====================================ID selector=====================*/
 #fonttype {
   font-family: cursive;
